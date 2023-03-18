@@ -1,0 +1,55 @@
+*{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+
+
+}
+.main{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    padding: 15px;
+   
+}
+.main h1{
+    text-align: center;
+    font-size: 33px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.main img{
+  
+    width: 90%;
+    height: auto;
+    margin: 5px 60px;
+}
+.main p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 60px;
+   
+}
+.col{
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#white{
+    background-color: white;
+}
+#black{
+    background-color:black;
+}
+#yello{
+    background-color: yellow;
+}
+#cyan{
+    background-color: cyan;
+}
+.color{
+    text-align: right;
+}
